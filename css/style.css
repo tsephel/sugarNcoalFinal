@@ -592,6 +592,28 @@ span{
   
 }
 
+.carousel-caption{
+    top: 30%;
+    bottom: auto;
+    
+  }
+
+.carousel-caption h5{
+  font-size: 400%;
+  font-weight: 500;
+  color: #fff;
+}
+
+.carousel-caption a{
+  font-size: 22px;
+}
+
+.carousel-caption a:hover{
+  background: #fff;
+  color: #000;
+}
+
+
 
 /* Menu List page*/
 .entree{  
@@ -696,4 +718,15 @@ iframe{
 
 .footer h3{
   color: #DDCDB6;
+}
+
+
+/*------------------Media query-------------- */
+@media only screen and (max-width: 768px) {
+
+.footer .col-lg-4{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+  
 }
