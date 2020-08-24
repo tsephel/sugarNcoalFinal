@@ -178,7 +178,7 @@ span{
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.4;
+  opacity: 0.5;
   z-index: 1;
 }
 
@@ -292,6 +292,21 @@ span{
 .active a{
   color: #fff;
 }
+
+.navbar-toggler { 
+    border-color: lightgreen; 
+}
+
+.navbar-toggler-icon { 
+      background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.navbar-toggler {
+    text-align: center;
+}
+
+
 
 
 /*landing page*/
@@ -412,6 +427,13 @@ span{
 }
 
 
+@media only screen and (max-width: 768px) {
+
+.SugarNCoal button{
+  width: 200px; 
+}
+
+}
 
 
 
@@ -454,6 +476,7 @@ span{
 .events { 
  
   height: 40%;
+  margin-top: 100px;
   
 }
 
@@ -603,7 +626,6 @@ span{
 }
 
 
-
 /* Menu List page*/
 .entree{  
   border: 25px solid #B88846;
@@ -641,6 +663,11 @@ span{
   
 }
 
+.carousel-caption{
+    top: 20%;
+    bottom: auto;
+    
+  }
 
 }/*------------------768 end-------------- */
 
@@ -737,6 +764,11 @@ iframe{
 
 .footer h3{
   color: #DDCDB6;
+
+}
+
+.footer .col-lg-12 h3{
+  font-size: 15px;
 }
 
 
