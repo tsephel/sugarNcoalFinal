@@ -334,7 +334,7 @@ span{
 
 
 
-/*landing page*/
+/*landing page woodside*/
 
 .landing-page-woodside { 
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/welcome-woodside.jpg) no-repeat center center fixed;
@@ -365,6 +365,26 @@ span{
   font-size: 20px;
   font-weight: bold;
 }
+
+
+
+/*landing page woodhaven*/ 
+
+.landing-page-woodhaven { 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/welcome-woodhaven.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+
+
+.landing-page-woodhaven button{
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
 
 /*------------------media query-------------- */
@@ -733,9 +753,9 @@ span{
 
 
 
-/* -------landing page for gallery ------*/
-.landing-page-gallery { 
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg) no-repeat center center fixed;
+/* -------landing page for gallery woodside------*/
+.landing-page-gallery-woodside{ 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/welcome-woodside.jpg) no-repeat center center fixed;
   display: table;
   height: 70%;
   position: relative;
@@ -744,10 +764,43 @@ span{
 
 
 
-.landing-page-gallery button{
+.landing-page-gallery-woodside button{
   font-size: 20px;
   font-weight: bold;
 }
+
+
+
+
+.landing-page-gallery-woodside button{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* -------landing page for gallery woodhaven------*/
+.landing-page-gallery-woodhaven { 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/welcome-woodhaven.jpg) no-repeat center center fixed;
+  display: table;
+  height: 70%;
+  position: relative;
+  background-size: cover;
+}
+
+
+
+.landing-page-gallery-woodhaven button{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+.landing-page-gallery-woodhaven button{
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
 
 .gallery img{
@@ -822,7 +875,7 @@ iframe{
 .landing-page-contact { 
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contactus.jpg) no-repeat center center fixed;
   display: table;
-  height: 80%;
+  height: 70%;
   position: relative;
   background-size: cover;
 }
