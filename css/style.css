@@ -235,6 +235,15 @@ span{
 
 
 
+@media only screen and (max-width: 441px) {
+
+  .video-background-holder .landing-head h2{
+     font-size: 100px;
+  }
+  
+}/*------------------441 end-------------- */
+
+
 
 
 /*------------------media query-------------- */
@@ -282,7 +291,12 @@ span{
 }
 
 .navbar li a{
-  color: #D5D5D5;
+  color: #f7e7ce;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #B1ADAE;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .navbar li a:hover{
@@ -530,8 +544,8 @@ span{
 }
 
 .menu-list-image img {
-  height: 350px;
-  width: 100%;
+  height: 300px;
+  width: 99%;
   position: relative;
   -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
   transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
@@ -542,7 +556,7 @@ span{
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 30px;
+  font-size: 22px;
   background: rgba(0,0,0,0.6);
   -webkit-transform: translatey(-100px);
   -ms-transform: translatey(-100px);
@@ -563,7 +577,7 @@ span{
   filter: alpha(opacity=0);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  margin: 200px 0 0;
+  margin: 190px 0 0;
   padding: 7px 14px;
 }
 
@@ -605,7 +619,7 @@ span{
 }
 
 .carousel-caption{
-    top: 30%;
+    top: 40%;
     bottom: auto;
     
   }
@@ -618,6 +632,11 @@ span{
 
 .carousel-caption a{
   font-size: 22px;
+  margin-top: 40px;
+  margin left: 5px;
+  margin-right: 5px;
+  border: 2px solid;
+
 }
 
 .carousel-caption a:hover{
@@ -664,12 +683,43 @@ span{
 }
 
 .carousel-caption{
-    top: 20%;
+    top: 40%;
     bottom: auto;
     
   }
 
+.carousel-caption a{
+  
+  margin-top: 7px;
+
+}
+
+  .carousel-caption a{
+    margin-bottom: 10px;
+  }
+
 }/*------------------768 end-------------- */
+
+
+
+/*------------------Media query-------------- */
+@media only screen and (max-width: 500px) {
+
+  .carousel-caption{
+    top: 15%;
+    bottom: auto;
+    
+  }
+
+.carousel-caption h5{ 
+  font-size: 50px;
+}
+
+}/*------------------508 end-------------- */
+
+
+
+
 
 
 /* -------landing page for gallery ------*/
@@ -721,6 +771,22 @@ span{
     height:100px;
     border:1px solid #000;
 }
+
+
+
+/*------------------Media query-------------- */
+@media only screen and (max-width: 500px) {
+
+.landing-page-gallery  h1{ 
+  font-size: 40px;
+}
+
+}/*------------------508 end-------------- */
+
+
+
+
+
 /*----------------Contact us ---------------*/
 iframe{
   width: 100%;
