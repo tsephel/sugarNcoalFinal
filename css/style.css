@@ -131,10 +131,7 @@ span{
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -198,26 +195,46 @@ span{
 }
 
 .branch-category{
-  background-color: #DCDCE0;
+  background-color: #EF5C36;
   height: 70px;
   font-size: 40px;
   border-right: 3px solid #643B16;
  }
 
 .branch-category a{
-  color: #939CA4;
+  color: #fff;
+  /*color: #939CA4;*/
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
 
 }
 
 .branch-category:hover{
-  background-color: #EF5C36;
+  background-color: #DCDCE0;
+  
   
 }
 
 .branch-category:hover a{
-  color: white;
+   color: #939CA4;
+}
+
+
+
+
+@media (min-aspect-ratio: 16/9) {
+    video {
+        width:100%;
+        height: auto;
+    }
+}
+
+
+@media (max-aspect-ratio: 16/9) {
+    video { 
+        width:auto;
+        height: 100%;
+    }
 }
 
 
@@ -247,18 +264,6 @@ span{
 
 @media only screen and (max-width: 441px) {
 
-  .video-background-holder .landing-head h2{
-     font-size: 100px;
-  }
-  
-}/*------------------441 end-------------- */
-
-
-
-
-/*------------------media query-------------- */
-
-@media only screen and (max-width: 441px) {
 
 .brand-logo img{
   width: 300px;
@@ -268,16 +273,22 @@ span{
 }
 
 
-.video-background-holder .landing-head{
-  margin-top: 200px;
-  }
 
   .video-background-holder .landing-head h2{
-  font-size: 18px;
+    font-size: 18px;  
   }
 
-
+  .branch-category{
+ 
+  font-size: 33px;
+  padding: 10px;
+  
+ }
+  
 }/*------------------441 end-------------- */
+
+
+
 
 
 
