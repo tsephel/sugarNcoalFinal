@@ -322,7 +322,8 @@ span{
   color: #fff;
 }
 
-.active a{
+.navbar-nav li.active > a {
+  background-color: #333;
   color: #fff;
 }
 
@@ -713,8 +714,27 @@ span{
 }
 
 
-
 /*------------------Media query-------------- */
+@media only screen and (max-width: 1024px) {
+
+
+.menu-list-image .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.menu-list-image h2, .menu-list-image a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+
+
+
+}
+
 @media only screen and (max-width: 768px) {
 
 .carousel-item{
@@ -850,8 +870,12 @@ span{
 /*------------------Media query-------------- */
 @media only screen and (max-width: 500px) {
 
-.landing-page-gallery  h1{ 
-  font-size: 40px;
+.landing-page-gallery-woodhaven h1{ 
+  font-size: 50px;
+}
+
+.landing-page-gallery-woodside h1{ 
+  font-size: 50px;
 }
 
 }/*------------------508 end-------------- */
